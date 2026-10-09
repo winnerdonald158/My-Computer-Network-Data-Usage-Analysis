@@ -1,4 +1,4 @@
-                                                      # Computer Network Data Usage Analysis
+                                        # Computer Network Data Usage Analysis
 
 **Tools:** PostgreSQL | Power BI  
 **Project Type:** Personal Computer Network Usage Analytics  
@@ -6,7 +6,7 @@
 
 ---
 
-                                                        ## Project Overview
+                                            ## Project Overview
 
 My computer had been consuming a significant amount of internet data, and I wanted to understand which programs and system processes were associated with that usage, how much data was received and sent, and when network activity was recorded most frequently.
 
@@ -18,13 +18,13 @@ An important part of the analysis was identifying traffic records without a reco
 
 ---
 
-                                                                     ## Goal
+                                                  ## Goal
 
 To understand the main sources and patterns of recorded network traffic on my computer, identify processes associated with higher usage, and recommend areas for further investigation to help manage data consumption.
 
 ---
 
-                                                              ## Business Questions
+                                            ## Business Questions
 
 The analysis focused on five questions:
 
@@ -36,7 +36,7 @@ The analysis focused on five questions:
 
 ---
 
-                                                                          ## Key Findings
+                                                 ## Key Findings
 
 ### 1. Total Recorded Network Traffic Reached 159.44 GB
 
@@ -84,7 +84,7 @@ The findings highlight the importance of examining both network traffic volume a
 
 ---
 
-                                                                        ## Recommendations
+                                                ## Recommendations
 
 Based on the analysis, I recommend:
 
@@ -99,7 +99,7 @@ These recommendations identify investigation priorities. The analysis does not e
 
 ---
 
-                                                                        ## Dashboard
+                                                   ## Dashboard
 
 The Power BI dashboard focuses on:
 
@@ -115,7 +115,7 @@ The dashboard is designed to answer one main question:
 
 ---
 
-                                                                               ## Process
+                                                     ## Process
 
 - I extracted Windows SRUM data using SrumECmd.
 - I prepared the extracted data for analysis.
@@ -128,9 +128,9 @@ The dashboard is designed to answer one main question:
 
 ---
 
-                                                                              ## Technical Approach
+                                                    ## Technical Approach
 
-                                                                                ### PostgreSQL
+                                                       ### PostgreSQL
 
 The SQL analysis used:
 
@@ -145,7 +145,7 @@ The SQL analysis used:
 
 The SQL analysis helped move from overall traffic totals to more specific questions about the processes, time periods, and recurring patterns associated with network activity.
 
-                                                                               ### Power BI
+                                                          ### Power BI
 
 The dashboard uses:
 
@@ -161,7 +161,7 @@ The dashboard separates the volume of network traffic from the frequency of reco
 
 ---
 
-                                                                   ## Data and Limitations
+                                                         ## Data and Limitations
 
 The project uses Windows SRUM network usage records extracted from my computer for July–September 2026.
 
@@ -176,7 +176,7 @@ A few limitations are important:
 
 ---
 
-                                                                          ## Conclusion
+                                                           ## Conclusion
 
 This project helped me examine a practical data consumption problem using SQL and Power BI.
 
